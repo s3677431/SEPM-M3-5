@@ -1,0 +1,25 @@
+<div class="row mt-5">
+        <div class="col-md-6 mx-auto">
+    <div class="data-form">
+        <h3 class="form-heading">add shift</h3>
+        <div class="formgroup">
+        <label for="start-time" class="custom-label">Start time</label>
+        <input type="time" class="custom-input" name="start-time" id="start-time">
+        </div>
+        <div class="formgroup">
+        <label for="end-time" class="custom-label">end time</label>
+        <input type="time" class="custom-input" name="end-time" id="end-time">
+        </div>
+        <div class="formgroup">
+        <label for="status-ddn" class="custom-label">Status</label>
+        <select type="text" class="custom-input" name="status-ddn" id="status-ddn">
+            <option value="Pending" selected>Pending</option>
+            <option value="Accepted">Accepted</option>
+            <option value="Rejected">Rejected</option>
+        </select>
+    </div>
+       <button class="primary-button" id="add-shift">add shift</button>
+     </div>
+    </div>
+    </div>
+    <script src="/js/add-shift.js"></script>
